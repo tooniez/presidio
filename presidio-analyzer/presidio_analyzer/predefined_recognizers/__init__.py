@@ -172,6 +172,7 @@ from .generic.ip_recognizer import IpRecognizer
 from .generic.mac_recognizer import MacAddressRecognizer
 from .generic.phone_recognizer import PhoneRecognizer
 from .generic.url_recognizer import UrlRecognizer
+from .generic.uuid_recognizer import UuidRecognizer
 
 # NER recognizers
 from .ner.gliner_recognizer import GLiNERRecognizer
@@ -221,6 +222,7 @@ __all__ = [
     "NhsRecognizer",
     "MedicalLicenseRecognizer",
     "MacAddressRecognizer",
+    "UuidRecognizer",
     "PhoneRecognizer",
     "SgFinRecognizer",
     "UrlRecognizer",
